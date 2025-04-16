@@ -1,3 +1,5 @@
+// index.js initializes the app with Bootstrap styling and the Redux store
+
 // Step 1: Setting Up Bootstrap in src/index.js
 // Import the Bootstrap CSS at the top to make its styles available throughout your project.
 // Wrap the <App /> component with <Provider store={store}>, which makes the Redux store accessible to the app.
@@ -16,22 +18,3 @@ root.render(
     <App />
   </Provider>
 );
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();

@@ -1,3 +1,5 @@
+// TaskList.js displays the current list of tasks, enabling users to delete tasks and see the list update in real-time
+
 // Step 5: Creating the TaskList Component in src/components/TaskList.js
 // Display the list of tasks from the Redux store.
 // Add a delete button for each task that dispatches an action to remove the specific task.

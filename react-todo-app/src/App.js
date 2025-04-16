@@ -1,3 +1,5 @@
+// App.js serves as the app’s main structure, bringing together TaskForm and TaskList
+
 // Step 3: Building the Main Layout in src/App.js
 // Set up the main layout for the app, including a title.
 // Import and render the TaskForm and TaskList components to organize the app structure.
@@ -17,30 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;

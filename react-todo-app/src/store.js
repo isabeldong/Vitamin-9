@@ -1,3 +1,5 @@
+// store.js holds the central state (tasks) and manages updates through actions
+
 // Step 2: Setting Up the Redux Store in src/store.js
 // Define the initial state of your app with an empty list of tasks.
 // Set up a reducer function to handle actions for adding and deleting tasks.
@@ -5,7 +7,7 @@
 
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 
-// Create a slice with reducers for adding and deleting tasks
+// Slice with reducers for adding and deleting tasks
 const tasksSlice = createSlice({
   name: 'tasks',
   initialState: [],

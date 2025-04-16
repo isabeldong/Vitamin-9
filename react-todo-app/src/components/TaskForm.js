@@ -1,3 +1,5 @@
+// TaskForm.js lets users add tasks, dispatching actions to update the state
+
 // Step 4: Creating the TaskForm Component in src/components/TaskForm.js
 // Create an input form for adding new tasks.
 // Use useState to manage the input field’s content. (useState: manages the input box)
